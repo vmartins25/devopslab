@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def pagina_inicial():
-    return "Hello World"
+    return "MBA Impacta Full Stack --DEVOPS na Veia"
 
 if __name__ == '__main__':
     app.run(debug=True)
